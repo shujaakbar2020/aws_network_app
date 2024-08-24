@@ -1,0 +1,121 @@
+<html>
+
+<head>
+
+  <script type=text/javascript src="{{
+        url_for('static', filename='jquery-3.5.1.min.js') }}"></script>
+
+  <script type=text/javascript>
+    function check_connection() {
+      $('#loading').css("display","");
+      $.ajax({
+        url: "/check",
+        type: "get", //send it through get method
+        success: function (response) {
+          $('#loading').css("display", "none");
+
+          console.log(response);
+          if (response.connected) {
+            $('.wrong').css("display", "none");
+            $('.right').css("display", "block");
+            $('#messageContent').text("Connected!");
+          } else {
+            $('.wrong').css("display", "block");
+            $('.right').css("display", "none");
+            if (response.error) {
+              console.log(response.error)
+              $('#messageContent').text(response.error);
+            }
+          }
+        },
+        error: function (xhr) {
+          console.log(xhr);
+        }
+      });
+    }
+
+    $(function () {
+      // $('#btnTest').bind('click', function () {
+      //   check_connection()
+      // });
+      setInterval(check_connection, 8000)
+    });
+  </script>
+  <style>
+    body {
+      margin: 0 auto;
+      background-color: rgb(26, 35, 47)
+    }
+
+    .vpc {
+      margin: 0 auto;
+      margin-top: 100px;
+      width: 1024px;
+      height: 444px;
+      background-image: url("{{url_for('static', filename='images/fullpic.png') }}");
+      background-repeat: no-repeat;
+
+    }
+
+    .btnTestDiv {
+      position: relative;
+      width: 100px;
+      left: 630px;
+      top: 200px;
+      /*border: 2px white solid;*/
+    }
+
+    .btnTestDiv img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .message {
+      font-family: 'Tahoma', 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+      /*background-color: white;*/
+      margin: 0 auto;
+      margin-left: 565;
+      margin-top: 210;
+      text-align: center;
+      color: white;
+      width: 230;
+      font-size: 14;
+    }
+
+    .btnTestDiv #wrong {
+      display: block;
+    }
+
+    .btnTestDiv #right {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="vpc">
+  <div class="btnTestDiv">
+    <div style="margin:0 auto;">
+      <img src="{{url_for('static', filename='images/wrong.png') }}" class="wrong"/>
+      <img src="{{url_for('static', filename='images/right.png') }}" class="right"/>
+    </div>
+  </div>
+  <div id="message" class="message"><img id="loading" src="{{url_for('static', filename='images/loader.gif') }}" width="20" /> <span id="messageContent">Checking!!!</span></div>
+
+  <script>
+    if ("{{meta.connected}}" == "True") {
+      $('.wrong').css("display", "none");
+      $('.right').css("display", "block");
+    } else {
+      $('.wrong').css("display", "block");
+      $('.right').css("display", "none");
+    }
+  </script>
+</div>
+
+
+</body>
+
+</html>
+
+

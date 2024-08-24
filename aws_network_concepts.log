@@ -1,0 +1,126 @@
+INFO:root:will connect
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.10.0.10:80
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72888baf50>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:45:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:45:48] "GET /static/jquery-3.5.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:45:49] "GET /static/images/right.png HTTP/1.1" 200 -
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:45:49] "GET /static/images/wrong.png HTTP/1.1" 200 -
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:45:49] "GET /static/images/loader.gif HTTP/1.1" 200 -
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:45:50] "GET /static/images/fullpic.png HTTP/1.1" 200 -
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:45:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72888f17d0>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:46:00] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f7287288d70>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:46:08] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f7287293b90>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:46:17] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728729a050>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:46:25] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f7287296d20>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:46:33] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72872963c0>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:46:41] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f7287293820>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:46:49] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f7287288050>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:46:57] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728729a410>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:47:05] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728729c690>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:47:12] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728729f960>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:47:21] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728729faf0>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:47:29] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728729f550>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:47:37] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728729c690>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:47:45] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72888baeb0>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:47:53] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72888d2140>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:48:01] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72872936e0>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:48:09] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72872963c0>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:48:44] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72872a68c0>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:49:44] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728682c500>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:50:44] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f728682c410>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:51:43] "GET /check HTTP/1.1" 200 -
+INFO:root:will connect
+INFO:root:2003 (HY000): Can't connect to MySQL server on '10.10.2.10:3306' (110)
+INFO:root:<class 'mysql.connector.errors.DatabaseError'>
+INFO:root:<traceback object at 0x7f72872aa460>
+INFO:werkzeug:175.157.44.55 - - [24/Aug/2024 06:52:44] "GET /check HTTP/1.1" 200 -
